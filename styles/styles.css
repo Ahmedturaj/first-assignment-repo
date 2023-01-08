@@ -1,0 +1,156 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/*Stles of background image  */
+header {
+    background-image:url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.header-content{
+
+    text-align: right;
+    color: aliceblue;
+    width: 600px;
+    padding: 0 150px;
+}
+.header-content > h1{
+font-size: 65px;
+}
+.header-content > p{
+font-size: 25px;
+color: rgb(241, 241, 241);
+}
+.btn-primary{
+    color: #005FAC;
+    padding: 30px 80px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* styles of all fail plans */
+.failures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 0;
+
+}
+.failures-img img{
+    width: 552px;
+    height: 690.3px;
+    
+}
+.failures-des{
+    width: 600px;
+    height: auto;
+    padding: 30px 125px;
+    
+}
+.failures-des h1{
+  font-size: 46px;
+}
+.failures-des p{
+  font-size: 20px;
+  margin: 30px 0;
+  color: #444343;
+}
+.failures-des ul li{
+    list-style: none;
+    font-size: 20px;
+    color: #444343;
+}
+.failures-des ul li i{
+  color: #16D887;
+  padding: 10px;
+}
+
+
+/* .section-title{
+    font-weight: 700;
+font-size: 40px;
+text-align: center;
+color: #151414;
+} */
+
+.my-plans{
+    width: 1140px;
+    margin: 100px auto;
+    justify-content: center;
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.plan{
+    width: 500px;
+    padding: 0 50px;
+}
+.hand-image{
+    background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("../images/watch.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    padding-right: 400px;
+    margin: 0 auto;
+    padding-bottom: 110px;
+}
+.hand-des{
+    padding-top: 100px;
+    /* position: absolute; */
+    padding-left: 200px;
+    color: #fff;
+}
+.hand-des h1{
+   font-size: 40px;
+}
+.life{
+
+}
+
+
+/* footer */
+
+footer{
+    background-color: #151414;
+    color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
